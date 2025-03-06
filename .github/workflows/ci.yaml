@@ -21,7 +21,7 @@ jobs:
                   cache-dependency-path: |
                       .github/requirements.txt
                       test/requirements*.txt
-            - uses: actions/cache@v4.2.0
+            - uses: actions/cache@v4.2.2
               with:
                   path: ~/.cache/pre-commit
                   key: pre-commit-${{hashFiles('.pre-commit-config.yaml')}}
@@ -77,7 +77,7 @@ jobs:
               env:
                   DIST: ${{matrix.dist}}
                   NETWORK: ${{matrix.network}}
-            - uses: actions/upload-artifact@v4.6.0
+            - uses: actions/upload-artifact@v4.6.1
               with:
                   path: |
                       bash-completion-*.tar.xz
