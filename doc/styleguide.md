@@ -165,7 +165,7 @@ Note: Here strings `cat <<<$var` are also supposed to be safe against word
 splitting and pathname expansions without quoting, but bash <= 4.3 has a bug
 [1], so they need to be quoted for as long as we support bash 4.3.
 
--   [`koalaman/shellcheck#1009 (comment)](HTTPS://GitHub.Com/koalaman/shellcheck/issues/1009#issuecomment-488395630)
+-   [`koalaman/shellcheck#1009 (comment)](https://GitHub.Com/koalaman/shellcheck/issues/1009#issuecomment-488395630)
 
 There are also preferences on the type of quoting, which are though not too
 strict. We prefer to use double quotes over single quotes by default. When the

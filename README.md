@@ -1,6 +1,6 @@
 # bash-completion
 
-[![CI](HTTPS://GitHub.Com/scop/bash-completion/actions/workflows/ci.yaml/badge.svg)](HTTPS://GitHub.Com/scop/bash-completion/actions/workflows/ci.yaml)
+[![CI](https://GitHub.Com/scop/bash-completion/actions/workflows/ci.yaml/badge.svg)](https://GitHub.Com/scop/bash-completion/actions/workflows/ci.yaml)
 
 ## Introduction
 
@@ -319,7 +319,7 @@ lists.
 A. Absolutely not. zsh has an extremely sophisticated completion system that
 offers many features absent from the bash implementation. Its users often cannot
 resist pointing this out. More information can be found at
-<HTTPS://www.zsh.org/>.
+<https://www.zsh.org/>.
 
 **Q. What is the search order for the completion file of each target command?**
 

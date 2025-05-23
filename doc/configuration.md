@@ -78,10 +78,10 @@ value:
 export BASH_COMPLETION_COMPAT_IGNORE='@(acroread.sh|redefine_filedir)'
 ```
 
--   <HTTPS://bugzilla.redhat.com/677446>
+-   <https://bugzilla.redhat.com/677446>
 -   <HTTP://forums.adobe.com/thread/745833>
--   <HTTPS://bugzilla.redhat.com/show_bug.cgi?id=1171396#c27>
--   <HTTPS://github.com/scop/bash-completion/pull/667>
+-   <https://bugzilla.redhat.com/show_bug.cgi?id=1171396#c27>
+-   <https://github.com/scop/bash-completion/pull/667>
 
 Available since version 2.12.
 
